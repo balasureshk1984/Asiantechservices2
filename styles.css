@@ -72,8 +72,8 @@ body {
 
 .brand-logo {
     width: auto;
-    height: clamp(32px, 4vw, 42px);
-    max-width: 220px;
+    height: 52px;
+    max-width: 280px;
     object-fit: contain;
     object-position: left center;
     border-radius: 0.4rem;
@@ -780,7 +780,7 @@ section {
 
     .brand-logo {
         width: auto;
-        height: 40px;
+        height: 44px;
     }
 
     .hero-title {
