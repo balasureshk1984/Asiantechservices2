@@ -72,11 +72,13 @@ body {
 
 .brand-logo {
     width: auto;
-    height: 48px;
+    height: clamp(32px, 4vw, 42px);
+    max-width: 220px;
     object-fit: contain;
     object-position: left center;
     border-radius: 0.4rem;
     filter: brightness(1.0) contrast(1.2) saturate(1.1);
+    display: block;
 }
 
 .nav-menu {
