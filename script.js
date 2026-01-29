@@ -55,10 +55,10 @@ contactForm.addEventListener('submit', (e) => {
     }
 
     // Create mailto link for form submission
-    const mailtoLink = `mailto:info@Asiantechservices.com?subject=Inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+    const mailtoLink = `mailto:info@Asiantechservice.com?subject=Inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
 
     // Show success message
-    alert('Thank you! Your message will be sent via email client. If it doesn\'t open, please email us directly at info@Asiantechservices.com');
+    alert('Thank you! Your message will be sent via email client. If it doesn\'t open, please email us directly at info@Asiantechservice.com');
 
     // Reset form
     contactForm.reset();
